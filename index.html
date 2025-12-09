@@ -14,7 +14,7 @@
     <script type="text/javascript">
         window.onload = function() {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
-                console.log("took changes 3");
+                console.log("took changes 4");
                 event.preventDefault();
                 // these IDs from the previous steps
                 emailjs.sendForm('service_5wcx2ol', 'template_scmt3ln', this)
@@ -39,6 +39,8 @@
         <input type="text" name="title" required>
         <label>Message</label>
         <textarea name="message" required></textarea>
+        <label>Message2</label>
+        <textarea name="message2" required></textarea>
         <input type="submit" value="Send">
     </form>
 </body>
